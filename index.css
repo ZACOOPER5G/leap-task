@@ -1,0 +1,36 @@
+/* global styles */
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1000px;
+    min-width: 780px;
+    margin: 0 auto;
+}
+
+/* navigation styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* header styles */
