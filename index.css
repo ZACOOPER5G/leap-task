@@ -88,8 +88,18 @@ button:hover {
 
 }
 
-.hero-content > img {
+.screenshot {
     max-width: 500px;
     min-width: 200px;
     height: 350px;
+}
+
+.headshot {
+    position: absolute;
+    max-width: 105px;
+    min-width: 105px;
+    height: 105px;
+    border:2px solid #fff;
+    border-radius:190px;
+    object-fit: cover;
 }
