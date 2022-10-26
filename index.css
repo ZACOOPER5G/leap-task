@@ -39,6 +39,11 @@ li {
     margin: 0 10px;
 }
 
+li:hover {
+    cursor: pointer;
+    color:#ccc
+}
+
 /* hero section styles */
 .hero-section {
     display: flex;
@@ -197,4 +202,67 @@ button:hover {
     border-radius: 190px;
     object-fit: cover;
 
+}
+
+.section-three {
+    padding: 50px;
+}
+
+.section-three-cards {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1158px;
+    min-width: 910px;
+}
+
+.docusign-img {
+    width: 400px;
+}
+
+.section-three-cards h2 {
+    margin-bottom: 20px;
+    color: #0a49af;
+    font-weight: 400;
+    font-size: 36px;
+    width: 445px;
+}
+
+.section-three-cards p {
+    width: 445px;
+    color: #191919CC;
+    font-size: 16px;
+}
+
+/* footer styles */
+
+footer {
+    height: 142px;
+    background-color: #191919;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 926px) {
+    .featured-cards {
+        grid-template-columns: 1fr 1fr;
+        max-width: 900px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .for-people {
+        display: none;
+    }
+
+    .navbar {
+        padding: 20px 10px;
+        max-width: 800px;
+        min-width: 530px;
+    }
+
+    .featured-cards {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+    }
 }
